@@ -1,4 +1,4 @@
-# Portfólio de Fabricio Salustiano
+# Portfólio
 
 Bem-vindo ao meu portfólio pessoal! Este projeto foi desenvolvido para apresentar minhas habilidades, experiências e trabalhos realizados como desenvolvedor de software.
 
@@ -11,11 +11,7 @@ Este portfólio é uma página web responsiva construída com foco em UX/UI mode
 Principais seções do portfólio:
 
 - **Home**: Introdução com uma breve descrição sobre mim.
-- **Sobre**: Informações detalhadas sobre minha trajetória profissional e acadêmica.
-- **Skills**: Habilidades técnicas com destaque em Angular, PHP Laravel, Java Spring, Arquitetura de Software, Docker, DevOps, entre outras.
-- **Experiências**: Histórico profissional detalhado.
-- **Educação**: Formação acadêmica e pós-graduações.
-- **Serviços**: Principais serviços que ofereço como desenvolvedor.
+- **Sobre**: Informações sobre minha visão e forma de trabalho.
 - **Portfolio**: Exemplos de projetos realizados.
 - **Contato**: Formulário para envio de mensagens direto pelo site.
 
