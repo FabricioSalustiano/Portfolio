@@ -1,4 +1,4 @@
-# Portfólio de Fabricio Salustiano
+# Portfólio
 
 Bem-vindo ao meu portfólio pessoal! Este projeto foi desenvolvido para apresentar minhas habilidades, experiências e trabalhos realizados como desenvolvedor de software.
 
