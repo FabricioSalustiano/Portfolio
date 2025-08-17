@@ -73,19 +73,19 @@
         <div class="col-lg-8 mx-auto">
           <div class="bg-white rounded text-center p-5 shadow-down">
             <h4 class="mb-80">Formulário de Contato</h4>
-            <form action="#" class="row">
+            <form id="contactForm" class="row">
               <div class="col-md-6">
-                <input type="text" id="name" name="name" placeholder="Nome Completo" class="form-control px-0 mb-4">
+                <input type="text" id="name" name="name" placeholder="Nome Completo" class="form-control px-0 mb-4" required>
               </div>
               <div class="col-md-6">
-                <input type="email" id="email" name="email" placeholder="Endereço de E-mail" class="form-control px-0 mb-4">
+                <input type="email" id="email" name="email" placeholder="Endereço de E-mail" class="form-control px-0 mb-4" required>
               </div>
               <div class="col-12">
                 <textarea name="message" id="message" class="form-control px-0 mb-4"
-                  placeholder="Digite sua mensagem aqui"></textarea>
+                  placeholder="Digite sua mensagem aqui" required></textarea>
               </div>
               <div class="col-lg-6 col-10 mx-auto">
-                <button class="btn btn-primary w-100">Enviar</button>
+                <button id="sendBtn" class="btn btn-primary w-100" type="submit">Enviar</button>
               </div>
             </form>
           </div>
@@ -128,5 +128,7 @@
   <script src="plugins/slick/slick.min.js"></script>
   <script src="plugins/shuffle/shuffle.min.js"></script>
   <script src="js/script.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="js/sendEmail.js"></script>
 </body>
 </html>
