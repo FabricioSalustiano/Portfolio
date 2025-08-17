@@ -1,30 +1,48 @@
-# HTLM/CSS - SitePortifolio
-Site construído durante estudos de HTML5 e CSS3 com o intuito de apresentação das praticas aprendidas sobre transitions e animações apenas com CSS. Realizadas muitas animações e transições com CSS3.
+# Portfólio de Fabricio Salustiano
 
+Bem-vindo ao meu portfólio pessoal! Este projeto foi desenvolvido para apresentar minhas habilidades, experiências e trabalhos realizados como desenvolvedor de software.
 
+---
 
-## Tela inicial:
+## Sobre o Projeto
 
-![alt text](Assets/images/telaInicial.png)
+Este portfólio é uma página web responsiva construída com foco em UX/UI moderno. Ele apresenta minhas informações pessoais, experiências profissionais, educação, habilidades, serviços e projetos de forma organizada e visualmente atraente.
 
+Principais seções do portfólio:
 
-## Tela de menu:
+- **Home**: Introdução com uma breve descrição sobre mim.
+- **Sobre**: Informações detalhadas sobre minha trajetória profissional e acadêmica.
+- **Skills**: Habilidades técnicas com destaque em Angular, PHP Laravel, Java Spring, Arquitetura de Software, Docker, DevOps, entre outras.
+- **Experiências**: Histórico profissional detalhado.
+- **Educação**: Formação acadêmica e pós-graduações.
+- **Serviços**: Principais serviços que ofereço como desenvolvedor.
+- **Portfolio**: Exemplos de projetos realizados.
+- **Contato**: Formulário para envio de mensagens direto pelo site.
 
-![alt text](Assets/images/telaMenu.png)
+---
 
+## Tecnologias Utilizadas
 
+O portfólio foi desenvolvido utilizando tecnologias modernas de front-end e ferramentas de design:
 
+- **HTML5 & CSS3**  
+- **Bootstrap 4** para layout responsivo  
+- **JavaScript / jQuery** para interatividade  
+- **Slick** para sliders e carrosséis  
+- **Shuffle.js** para filtragem de itens do portfólio  
+- **Themify Icons** para ícones  
+- **Custom CSS** (`css/style.css`) para estilos personalizados  
 
-## Tela de conteúdos:
+---
 
-![alt text](Assets/images/telaConteudos.png)
+## Habilidades Destacadas
 
+- **Angular 18+**   
+- **PHP Laravel**
+- **Java Spring**
+- **Arquitetura de Software**
+- **Testes Automatizados**
+- **Docker & Containers**
+- **DevOps & CI/CD Pipelines**
 
-
-
-## Animação de card
-
-![alt text](Assets/images/animacao.png)
-
-
-Esta animação é ativada quando o mouse se posiciona acima do card.
+---

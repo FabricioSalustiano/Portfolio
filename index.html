@@ -1,75 +1,463 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./Assets/style.css">
-    </head>
-    <body>
-        <header class="header-wrapper">
-            <div class="header">
-                <div class="checkbox-container">
-                    <div class="checkbox-wrapper">
-                        <input type="checkbox" id="toggle">
-                        <label class="checkbox" for="toggle">
-                            <div class="trace"></div>
-                            <div class="trace"></div>
-                            <div class="trace"></div>
-                        </label>
-                        <div class="menu">
-                        </div>
-                        <nav class="menu-itens">
-                            <ul>
-                                <li><a href="">Home</a></li>
-                                <li><a href="">Sobre</a></li>
-                                <li><a href="">Projetos</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>Fabricio Salustiano</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+
+  <link href="css/style.css" rel="stylesheet">
+  
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+  <header class="navigation fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+        <a class="nav-link" href="about.html">Sobre</a>
+          </li>
+          <li class="nav-item">
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero-area bg-primary" id="parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-11 mx-auto">
+          <h1 class="text-white font-tertiary">Olá! Eu sou <br> Fabricio <br>Software Engineer</h1>
+        </div>
+      </div>
+    </div>
+    <div class="layer-bg w-100">
+      <img class="img-fluid w-100" src="images/illustrations/leaf-bg.png" alt="bg-shape">
+    </div>
+    <div class="layer" id="l2">
+      <img src="images/illustrations/dots-cyan.png" alt="bg-shape">
+    </div>
+    <div class="layer" id="l3">
+      <img src="images/illustrations/leaf-orange.png" alt="bg-shape">
+    </div>
+    <div class="layer" id="l4">
+      <img src="images/illustrations/dots-orange.png" alt="bg-shape">
+    </div>
+    <div class="layer" id="l5">
+      <img src="images/illustrations/leaf-yellow.png" alt="bg-shape">
+    </div>
+    <div class="layer" id="l6">
+      <img src="images/illustrations/leaf-cyan.png" alt="bg-shape">
+    </div>
+    <div class="layer" id="l7">
+      <img src="images/illustrations/dots-group-orange.png" alt="bg-shape">
+    </div>
+    <div class="layer" id="l8">
+      <img src="images/illustrations/leaf-pink-round.png" alt="bg-shape">
+    </div>
+    <div class="layer" id="l9">
+      <img src="images/illustrations/leaf-cyan-2.png" alt="bg-shape">
+    </div>
+    <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
+      <li class="mb-3"><a class="text-white" href="https://www.linkedin.com/in/fabricio-salustiano/" target="_blank" rel="noopener"><i class="ti-linkedin"></i></a></li>
+      <li class="mb-3"><a class="text-white" href="mailto:fabriciosalustiano1@gmail.com" target="_blank" rel="noopener"><i class="ti-google"></i></a></li>
+      <li class="mb-3"><a class="text-white" href="https://wa.me/55017981665739"><i class="ti-mobile"></i></a></li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto text-center">
+          <p class="font-secondary paragraph-lg text-dark">
+            Sou um desenvolvedor que une lógica e criatividade para transformar ideias em soluções digitais únicas.
+            Minha missão vai além de programar: busco criar experiências que conectam pessoas e tecnologia, com significado e propósito.
+            Descubra como transformo códigos em impacto real.
+          </p>
+          <a href="about.html" class="btn btn-transparent">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-title">Skills</h2>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+          <div class="card shadow text-center">
+            <div class="position-relative rounded-top progress-wrapper" data-color="#fdb157">
+              <div class="wave" data-progress="90%"></div>
             </div>
-            <h1>Fabricio Salustiano</h1>
-            <h2>Full Stack Developer</h2>
-            <div class="social-midia">
-                <a href="https://www.linkedin.com/in/fabricio-salustiano-093343189/" target="_blank">Linkedin</a>
-                <a href="https://github.com/FabricioSalustiano" target="_blank">GitHub</a>
-                <a href="tel:+5517981665739" target="_blank">WhatsApp</a>
+            <div class="card-footer bg-white">
+              <h4 class="card-title">Angular 18+ (90%)</h4>
             </div>
-        </header>
-        <main class="container">
-            <section class="card-container">
-                <div class="card-text">
-                    Fui responsável por estar solucionando dúvidas e problemas de redes internas residências através de ligações e mensagens via whatsapp. Também tive como responsabilidade auxiliar nas dúvidas e logística da agenda dos técnicos externos.
-                </div>
-                <div id="card1" class="card">
-                    <div class="card-wrapper">
-                        <h2>AW Telecom</h2>
-                    </div>
-                </div>
-            </section>
-            <section class="card-container">
-                <div id="card2" class="card">
-                    <div class="card-wrapper">
-                        <h2>Sistema Gestor</h2>
-                    </div>
-                </div>
-                <div class="card-text">
-                    Nesta vaga fui responsável pelo suporte técnico prestado aos clientes assinantes dos sistemas desenvolvidos pela empresa, via ligações e mensagens por whatsapp. Também auxiliei a equipe de desenvolvimento com novos códigos de SQL, depuração de códigos C# e realização de bateria de teste em novos versionamentos dos sistemas.
-                </div>
-            </section>
-            <section class="card-container">
-                <div class="card-text">
-                    Realizei neste emprego o monitoramento e acompanhamento dos alunos durante a realização dos cursos em plataforma online da empresa, solucionando dúvidas, ensinando novos conceitos de lógica da programação e de tecnologia, e trazendo novidades referente a área para os alunos da escola
-                </div>
-                <div id="card3" class="card">
-                    <div class="card-wrapper">
-                        <h2>The Future School</h2>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer class="footer">
-            Feito por Fabricio Salustiano
-        </footer>
-    </body>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+          <div class="card shadow text-center">
+            <div class="position-relative rounded-top progress-wrapper" data-color="#9473e6">
+              <div class="wave" data-progress="85%"></div>
+            </div>
+            <div class="card-footer bg-white">
+              <h4 class="card-title">PHP Laravel (85%)</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+          <div class="card shadow text-center">
+            <div class="position-relative rounded-top progress-wrapper" data-color="#bdecf6">
+              <div class="wave" data-progress="80%"></div>
+            </div>
+            <div class="card-footer bg-white">
+              <h4 class="card-title">Java Spring (80%)</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+          <div class="card shadow text-center">
+            <div class="position-relative rounded-top progress-wrapper" data-color="#ffbcaa">
+              <div class="wave" data-progress="75%"></div>
+            </div>
+            <div class="card-footer bg-white">
+              <h4 class="card-title">Arquitetura de software (75%)</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 mt-4">
+          <div class="card shadow text-center">
+            <div class="position-relative rounded-top progress-wrapper" data-color="#00c9a7">
+              <div class="wave" data-progress="70%"></div>
+            </div>
+            <div class="card-footer bg-white">
+              <h4 class="card-title">Testes Automatizados (70%)</h4>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-lg-3 col-sm-6 mt-4">
+          <div class="card shadow text-center">
+            <div class="position-relative rounded-top progress-wrapper" data-color="#36a2eb">
+              <div class="wave" data-progress="80%"></div>
+            </div>
+            <div class="card-footer bg-white">
+              <h4 class="card-title">Docker & Containers (80%)</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 mt-4">
+          <div class="card shadow text-center">
+            <div class="position-relative rounded-top progress-wrapper" data-color="#4caf50">
+              <div class="wave" data-progress="75%"></div>
+            </div>
+            <div class="card-footer bg-white">
+              <h4 class="card-title">DevOps & CI/CD Pipelines (75%)</h4>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-title">Experiências</h2>
+          </div>
+
+          <div class="col-lg-3 col-md-4 text-center">
+            <img src="images/experience/icon-1.png" alt="icon">
+            <p class="mb-0">2024 - Atual</p>
+            <h4>Desenvolvedor Full Stack</h4>
+            <h6 class="text-light">AGTech Agrotecnologia</h6>
+          </div>
+
+          <div class="col-lg-3 col-md-4 text-center">
+            <img src="images/experience/icon-2.png" alt="icon">
+            <p class="mb-0">2022 - 2024</p>
+            <h4>Estágio em Desenvolvimento</h4>
+            <h6 class="text-light">Empro Tecnologia e Informação</h6>
+          </div>
+
+          <div class="col-lg-3 col-md-4 text-center">
+            <img src="images/experience/icon-3.png" alt="icon">
+            <p class="mb-0">2022</p>
+            <h4>Professor de Tecnologia</h4>
+            <h6 class="text-light">The Future School 4.0</h6>
+          </div>
+
+          <div class="col-lg-3 col-md-4 text-center mt-4">
+            <img src="images/experience/icon-2.png" alt="icon">
+            <p class="mb-0">2021 - 2022</p>
+            <h4>Estágio em Desenvolvimento</h4>
+            <h6 class="text-light">Sistema Gestor</h6>
+          </div>
+
+        </div>
+      </div>
+  </section>
+
+  <section class="section position-relative">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-title">Educação</h2>
+        </div>
+
+        <div class="col-lg-6 col-md-6 mb-80">
+          <div class="d-flex">
+            <div class="mr-lg-5 mr-3">
+              <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+            </div>
+            <div>
+              <p class="text-dark mb-1">2025 - 2026</p>
+              <h4>Pós-graduação em Arquitetura de Software</h4>
+              <p class="mb-0 text-light">XP Educação</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 mb-80">
+          <div class="d-flex">
+            <div class="mr-lg-5 mr-3">
+              <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+            </div>
+            <div>
+              <p class="text-dark mb-1">2025 - 2026</p>
+              <h4>Pós-graduação em Soluções com Inteligência Artificial</h4>
+              <p class="mb-0 text-light">XP Educação</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 mb-80">
+          <div class="d-flex">
+            <div class="mr-lg-5 mr-3">
+              <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+            </div>
+            <div>
+              <p class="text-dark mb-1">2021 - 2024</p>
+              <h4>Bacharelado em Ciência da Computação</h4>
+              <p class="mb-0 text-light">UNIP - Universidade Paulista</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 mb-80">
+          <div class="d-flex">
+            <div class="mr-lg-5 mr-3">
+              <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+            </div>
+            <div>
+              <p class="text-dark mb-1">2017 - 2018</p>
+              <h4>Ensino Técnico em Desenvolvimento de Sistemas</h4>
+              <p class="mb-0 text-light">Etec Philadelpho Gouvêa Netto</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img class="img-fluid edu-bg-image w-100" src="images/backgrounds/education-bg.png" alt="bg-image">
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">Serviços</h2>
+        </div>
+
+        <div class="col-md-4 mb-4 mb-md-0">
+          <div class="card hover-shadow shadow">
+            <div class="card-body text-center px-4 py-5">
+              <i class="ti-desktop icon mb-5 d-inline-block"></i>
+              <h4 class="mb-4">Desenvolvimento Web & APIs</h4>
+              <p>Criação de sistemas web modernos e APIs robustas utilizando Angular 18+, PHP Laravel, Java Spring e bancos de dados MySQL e Oracle, com foco em performance, segurança e escalabilidade.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4 mb-md-0">
+          <div class="card active-bg-primary hover-shadow shadow">
+            <div class="card-body text-center px-4 py-5">
+              <i class="ti-settings icon mb-5 d-inline-block"></i>
+              <h4 class="mb-4">Arquitetura de Software</h4>
+              <p>Aplicação de Clean Code e Clean Architecture no desenvolvimento de soluções, integrando microserviços, WebSockets, Kafka e pipelines CI/CD para garantir qualidade e manutenibilidade.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4 mb-md-0">
+          <div class="card hover-shadow shadow">
+            <div class="card-body text-center px-4 py-5">
+              <i class="ti-package icon mb-5 d-inline-block"></i>
+              <h4 class="mb-4">DevOps & Docker</h4>
+              <p>Configuração e gestão de ambientes com Docker e automação de deploys contínuos através de práticas DevOps e integração contínua, garantindo eficiência no ciclo de desenvolvimento.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">Portfolio</h2>
+        </div>
+      </div>
+      <div class="row shuffle-wrapper">
+        <div class="col-lg-4 col-6 mb-4 shuffle-item">
+          <div class="position-relative rounded hover-wrapper">
+            <img src="images/portfolio/item-1.png" alt="portfolio-image" class="img-fluid rounded w-100">
+            <div class="hover-overlay">
+              <div class="hover-content">
+                <a class="btn btn-light btn-sm" href="#">Explorar projeto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-6 mb-4 shuffle-item">
+          <div class="position-relative rounded hover-wrapper">
+            <img src="images/portfolio/item-2.png" alt="portfolio-image" class="img-fluid rounded w-100">
+            <div class="hover-overlay">
+              <div class="hover-content">
+                <a class="btn btn-light btn-sm" href="#">Explorar projeto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-6 mb-4 shuffle-item">
+          <div class="position-relative rounded hover-wrapper">
+            <img src="images/portfolio/item-3.png" alt="portfolio-image" class="img-fluid rounded w-100">
+            <div class="hover-overlay">
+              <div class="hover-content">
+                <a class="btn btn-light btn-sm" href="#">Explorar projeto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-6 mb-4 shuffle-item">
+          <div class="position-relative rounded hover-wrapper">
+            <img src="images/portfolio/item-4.png" alt="portfolio-image" class="img-fluid rounded w-100">
+            <div class="hover-overlay">
+              <div class="hover-content">
+                <a class="btn btn-light btn-sm" href="#">Explorar projeto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-6 mb-4 shuffle-item">
+          <div class="position-relative rounded hover-wrapper">
+            <img src="images/portfolio/item-5.png" alt="portfolio-image" class="img-fluid rounded w-100">
+            <div class="hover-overlay">
+              <div class="hover-content">
+                <a class="btn btn-light btn-sm" href="#">Explorar projeto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-on-footer" data-background="images/backgrounds/bg-dots.png">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">Informações de Contato</h2>
+        </div>
+        <div class="col-lg-8 mx-auto">
+          <div class="bg-white rounded text-center p-5 shadow-down">
+            <h4 class="mb-80">Formulário de Contato</h4>
+            <form action="#" class="row">
+              <div class="col-md-6">
+                <input type="text" id="name" name="name" placeholder="Nome Completo" class="form-control px-0 mb-4">
+              </div>
+              <div class="col-md-6">
+                <input type="email" id="email" name="email" placeholder="Endereço de E-mail" class="form-control px-0 mb-4">
+              </div>
+              <div class="col-12">
+                <textarea name="message" id="message" class="form-control px-0 mb-4"
+                  placeholder="Digite sua mensagem aqui"></textarea>
+              </div>
+              <div class="col-lg-6 col-10 mx-auto">
+                <button class="btn btn-primary w-100">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark footer-section">
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5 class="text-light">E-mail</h5>
+            <p class="text-white paragraph-lg font-secondary">fabriciosalustiano1@gmail.com</p>
+          </div>
+          <div class="col-md-4">
+            <h5 class="text-light">Telefone</h5>
+            <p class="text-white paragraph-lg font-secondary">(17) 98166-5739</p>
+          </div>
+          <div class="col-md-4">
+            <h5 class="text-light">Endereço</h5>
+            <p class="text-white paragraph-lg font-secondary">São José do Rio Preto, SP</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="border-top text-center border-dark py-5">
+      <p class="mb-0 text-light">
+        Copyright ©<script>
+          var CurrentYear = new Date().getFullYear()
+          document.write(CurrentYear)
+        </script> Desenvolvido por <strong>Fabricio Salustiano</strong>
+      </p>
+    </div>
+  </footer>
+
+  <script src="plugins/jQuery/jquery.min.js"></script>
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="plugins/slick/slick.min.js"></script>
+  <script src="plugins/shuffle/shuffle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
 </html>
